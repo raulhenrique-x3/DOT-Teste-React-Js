@@ -65,6 +65,12 @@ span{
     display: flex;
 }
 
+input::placeholder{
+    color: #c3cfd9;
+    font-size: 1rem;
+    font-weight: f00;
+}
+
 .buyContent {
     width: auto;
     height: inherit;
@@ -79,23 +85,20 @@ span{
 }
 
 .buyTitle {
-    width: 70%;
+    width: 100%;
     display: flex;
-    gap: 100px;
 }
 
 .imgName{
     display: flex;
-    gap: 10px;
+    gap: 12px;
+    width: 50%;
 }
 
 .qtdPrice{
     display: flex;
-    gap: 25px;
-}
-
-.preçoP{
-    margin-left: 25%;
+    width: 50%;
+    gap: 30%;
 }
 
 .imgName>p,
@@ -192,6 +195,7 @@ span{
     align-items: center;
     justify-content: space-around;
     border: 2px solid #4a4a4a85;
+    color: #1e2f3d;
 }
 
 .toHome{
