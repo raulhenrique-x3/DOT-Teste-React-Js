@@ -14,7 +14,6 @@
 }
 
 .inputSearch{
-    display: flex;
     align-items: center;
     background-color: #fff;
     padding: 16px;
@@ -27,6 +26,7 @@
 
 .inputSearch>input{
     border: none;
+    width: 100%;
 }
 
 input{
@@ -192,4 +192,23 @@ h2{
 
 .titleP{
     width: 65px;
+}
+
+@media (max-width: 620px){
+    input{
+        width: 20%;
+    }
+
+    .showFavorites{
+        width: 60vw;
+    }
+
+    .showBuyMenu{
+        width: 60vw;
+    }
+
+    .cartItem{
+        gap: unset;
+        padding: unset;
+    }
 }

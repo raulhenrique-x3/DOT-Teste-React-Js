@@ -93,3 +93,18 @@
     color: #fff;
     cursor: pointer;
 }
+
+@media (max-width: 620px){
+    .movies{
+        flex-direction: column;
+        flex-wrap: unset;
+        align-items: center;
+        height: 100%;
+        gap: unset;
+    }
+
+    .figureMovie{
+        width: 200px;
+        height: 500px;
+    }
+}
